@@ -1,0 +1,1 @@
+C:\Users\Computer\Desktop\test\MqttClient\MauiApp1\MauiApp1.csproj;x64

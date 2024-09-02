@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    xmlns:page="clr-namespace:MauiApp1.Views"
+    Title="MqttMessage"
+    Shell.FlyoutBehavior="Disabled">
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate page:HomePage}"
+        Route="MainPage" />
+
+
+</Shell>

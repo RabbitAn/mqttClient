@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiApp1.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1.ViewModels"
+    Title="聊天室">
+    <ContentPage.BindingContext>
+        <local:HomeVM />
+    </ContentPage.BindingContext>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Offset="0.0" Color="#E3FDF5" />
+                <GradientStop Offset="1.0" Color="#FFE6FA" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <ScrollView x:Name="ScrollView">
+            <CollectionView x:Name="CollectionView" ItemsSource="{Binding ReceiveMessage}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="0,10,0,0">
+                            <Label Text="{Binding Date}" />
+                            <Label
+                                Margin="5,0,0,0"
+                                FontSize="14"
+                                Text="{Binding Msg}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        <StackLayout
+            Grid.Row="1"
+            HorizontalOptions="Center"
+            Orientation="Horizontal">
+            <Entry Text="{Binding SendMessageText}" WidthRequest="200" />
+            <Button
+                Margin="10,0,0,0"
+                Command="{Binding SendMessageCommand}"
+                HeightRequest="40"
+                Text="发送"
+                WidthRequest="100" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Computer\\Desktop\\test\\MqttClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C877A84B-064C-46C2-9DF6-A1EAA2AAF36B}|MauiApp1\\MauiApp1.csproj|c:\\users\\computer\\desktop\\test\\mqttclient\\mauiapp1\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C877A84B-064C-46C2-9DF6-A1EAA2AAF36B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C877A84B-064C-46C2-9DF6-A1EAA2AAF36B}|MauiApp1\\MauiApp1.csproj|c:\\users\\computer\\desktop\\test\\mqttclient\\mauiapp1\\mauiapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C877A84B-064C-46C2-9DF6-A1EAA2AAF36B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\mauiapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiApp1",
+              "DocumentMoniker": "C:\\Users\\Computer\\Desktop\\test\\MqttClient\\MauiApp1\\MauiApp1.csproj",
+              "RelativeDocumentMoniker": "MauiApp1\\MauiApp1.csproj",
+              "ToolTip": "C:\\Users\\Computer\\Desktop\\test\\MqttClient\\MauiApp1\\MauiApp1.csproj",
+              "RelativeToolTip": "MauiApp1\\MauiApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-06T09:14:52.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Computer\\Desktop\\test\\MqttClient\\MauiApp1\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\Computer\\Desktop\\test\\MqttClient\\MauiApp1\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "MauiApp1\\ViewModels\\HomeVM.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T08:43:52.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
